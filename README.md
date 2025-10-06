@@ -69,6 +69,7 @@ CRITERIOS DE USABILIDAD:
    - "¡Opción inválida!" para números fuera de rango
    - "¡Entrada inválida!" para caracteres no numéricos
    - Repetición del prompt hasta entrada correcta
+     
   **CONTRASTE VISUAL:**
    - Separadores con "=" para secciones principales
    - Separadores con "-" para subsecciones
@@ -82,3 +83,4 @@ CRITERIOS DE USABILIDAD:
 
    - Funciona perfectamente como ejecutable como en un IDE (Visual Studio Code)
 ──────────────────────────────────────────────────────
+
