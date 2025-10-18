@@ -1,9 +1,23 @@
-﻿# Piedra_Papel_o_Tijeras
-Trabajo correspondiente a Logica de Programación, en este caso he escogido la aplicación de Piedra, Papel o Tijera.
+﻿# Piedra Papel o Tijera
+Proyecto final de Lógica de Programación 2 - UIDE
 
-BIENVENIDO AL JUEGO DE PIEDRA, PAPEL O TIJERA
+──────────────────────────────────────────────────────
 
-─────INSTRUCCIONES DEL JUEGO─────
+INFORMACIÓN DEL PROYECTO
+
+Estudiante: Wilmer Joao Correa Guevara
+
+Docente: Lilian Marlene Aman Ramos
+
+Materia: Lógica de Programación 2-ECC-1B
+
+Universidad Internacional del Ecuador (UIDE)
+
+Repositorio: [Piedra, Papel o Tijera](https://github.com/ArteJo/Piedra_Papel_o_Tijeras)
+
+──────────────────────────────────────────────────────
+
+REGLAS DEL JUEGO
 
 1. Piedra vence a Tijera (la rompe)                
 
@@ -13,7 +27,6 @@ BIENVENIDO AL JUEGO DE PIEDRA, PAPEL O TIJERA
 
 4. Si ambos eligen lo mismo, es EMPATE             
 
-
 Opciones:
 
   [1] - Piedra 🔴
@@ -21,6 +34,57 @@ Opciones:
   [2] - Papel 🟥
   
   [3] - Tijera ❌
+  
+──────────────────────────────────────────────────────
+
+INSTALACIÓN
+
+Requisitos Previos:
+[Python 3.13](https://www.python.org/downloads/) o superior
+
+Sistema operativo: Windows, macOS, o Linux
+
+──────────────────────────────────────────────────────
+
+Pasos de Instalación:
+
+Clonar el repositorio: 
+
+git clone https://github.com/ArteJo/Piedra_Papel_o_Tijeras.git
+
+Verificar instalación de Python: 
+
+python --version
+
+Ejecutar el programa: Autonomo2.1.py
+
+Nota: No se requieren dependencias externas. Solo usa la biblioteca estándar de Python.
+
+──────────────────────────────────────────────────────
+
+USO
+
+Bienvenida: El juego muestra un mensaje de bienvenida
+
+Ingreso de Nombre: Solicita el nombre del jugador
+
+Instrucciones: Pregunta si conoce las reglas (opcional)
+
+Confirmación: Pregunta si desea iniciar el juego
+
+Juego: Bucle de partidas:
+
+- Computadora genera su elección aleatoriamente
+  
+- Jugador elige su opción (1, 2 o 3)
+  
+- El sistema determina el ganador
+  
+- Muestra estadísticas actualizadas
+  
+- Pregunta si desea volver a jugar
+
+Despedida: Muestra estadísticas finales y se despide
 
 ──────────────────────────────────────────────────────
 
@@ -61,7 +125,6 @@ RNF6: Código mantenible con comentarios y estructura clara
 - Genera números pseudoaleatorios con distribución uniforme
 - Probabilidad teórica: P(Piedra) = P(Papel) = P(Tijera) = 1/3 ≈ 33.33%
 - En 10,000 simulaciones esperamos: ~3,333 de cada opción (±2% variación)
-- Chi-cuadrado test confirma uniformidad (p-value > 0.05)
 
 CRITERIOS DE USABILIDAD:
 
@@ -81,6 +144,36 @@ CRITERIOS DE USABILIDAD:
    - Resultado visible de cada ronda
    - Estadísticas actualizadas en tiempo real
 
-   - Funciona perfectamente como ejecutable como en un IDE (Visual Studio Code)
 ──────────────────────────────────────────────────────
+
+PROGRAMAS UTILIZADOS PARA EL DESAROLLO
+
+Diagrama de Flujo:
+[Raptor Avalonia 0.10.0001](https://raptor.martincarlisle.com/)
+
+Lenguaje de Programación:
+[Python 3.13](https://www.python.org/downloads/)
+
+Bibliotecas:
+random - Generación de números aleatorios (biblioteca estándar)
+
+Herramientas de Desarrollo:
+
+[Visual Studio Code 1.105.0](https://code.visualstudio.com/download)
+
+[Git for Windows 2.51.1](https://git-scm.com/downloads/win) & [GitHub](https://github.com/)
+
+Entornos de Ejecución:
+
+- Terminal/CMD
+- IDE (Visual Studio Code, PyCharm)
+- Ejecutable compilado (Autonomo2.1.py)
+
+──────────────────────────────────────────────────────
+
+AGRADECIMIENTOS
+
+A la profesora Lilian Marlene Aman Ramos por su guía y enseñanza en las clases impartidas.
+A la Universidad Internacional del Ecuador (UIDE) por la formación académica
+A la comunidad de Python, YouTube por la documentación y recursos
 
