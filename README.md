@@ -174,6 +174,9 @@ Entornos de Ejecución:
 AGRADECIMIENTOS
 
 A la profesora Lilian Marlene Aman Ramos por su guía y enseñanza en las clases impartidas.
+
 A la Universidad Internacional del Ecuador (UIDE) por la formación académica
+
 A la comunidad de Python, YouTube por la documentación y recursos
+
 
